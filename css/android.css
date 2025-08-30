@@ -1,7 +1,9 @@
 @charset "UTF-8";
 @font-face {
     font-family: 'andro';
-    src: url('fonts/idroid.otf') format('opentype');
+    src: url('fonts/IDroid-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 *{/*Configuracoes globais*/
     margin: 0px;
@@ -74,10 +76,12 @@ main .titulo{
     background-image: linear-gradient(to right, #8db5f58d, transparent);
 }
 main h1{
+    font-family: 'andro', Arial, sans-serif;
     font-size: 2.8em;
     color: var(--edcor4);
 }
 main h2{
+    font-family: 'andro', Arial, sans-serif;
     font-size: 1.8em;
     color: var(--edcor3);
 }
