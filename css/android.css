@@ -1,7 +1,19 @@
 @charset "UTF-8";
 @font-face {
+    /*ttf - truetype
+    otf - opentype    
+    */
     font-family: 'andro';
-    src: url('/fonts/BebasNeue-Regular.otf') format('opentype');
+    src: url('../fonts/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    /*ttf - truetype
+    otf - opentype    
+    */
+    font-family: 'Bebas';
+    src: url('../fonts/BebasNeue-Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -29,10 +41,12 @@ header{
         padding-top: 50px;
 }
 header h1{
+    font-family: 'Bebas';
     margin-bottom: 20px;
     font-size: 3em;
 }
 header p{
+    font-family: 'Bebas';
     width: 350px;
     margin: auto;
     padding-bottom: 13px;
