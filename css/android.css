@@ -1,0 +1,174 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'andro';
+    src: url('fonts/idroid.otf') format('opentype');
+}
+*{/*Configuracoes globais*/
+    margin: 0px;
+    padding: 0px;
+}
+:root{/*Minha Paleta de cores*/
+    --edcor0:#8db5f5;
+    --edcor1:#6da1f6;
+    --edcor2:#406196;
+    --edcor3:#295499;
+    --edcor4:#09357a;
+}
+body{
+    background-color: var(--edcor0);
+}
+/*Configuracoes do Cabecalho*/
+header{
+        background-image: linear-gradient(to bottom, var(--edcor3),var(--edcor4));
+        text-align: center;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        min-height: 150px;
+        padding-top: 50px;
+}
+header h1{
+    margin-bottom: 20px;
+    font-size: 3em;
+}
+header p{
+    width: 400px;
+    margin: auto;
+    padding-bottom: 15px;
+}
+/*----------------------Fim-----------------------------*/
+
+/*Configuracoes do Menu*/
+nav{
+    background-color: var(--edcor4);
+    padding: 10px;
+}
+nav a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0px 7px;
+    color: white;
+    font-weight: bold;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+nav a:hover{
+    background-color: var(--edcor2);
+    color: var(--edcor0);
+}
+/*----------------------Fim-----------------------------*/
+
+
+/*Configuracoes do Conteudo Principal so meu site*/
+main{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    max-width: 950px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+main .titulo{
+    background-image: linear-gradient(to right, #8db5f58d, transparent);
+}
+main h1{
+    font-size: 2.8em;
+    color: var(--edcor4);
+}
+main h2{
+    font-size: 1.8em;
+    color: var(--edcor3);
+}
+main p{
+    line-height: 30px;
+    text-indent: 50px;
+    text-align: justify;
+}
+main > article > p > a{
+    color: var(--edcor3);
+    text-decoration: none;
+    background-color: var(--edcor0);
+    padding: 3px;
+    border-radius: 2px;
+}
+article > p > a:hover{
+    text-decoration: underline;
+}
+main strong{
+    color: var(--edcor1);
+    font-weight: bold;
+} 
+main img{
+    width: 100%;
+}
+main .menorzinho{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+article > .video{
+    background-color: var(--edcor2);
+    margin: 0px -20px;
+    margin-bottom: 20px;
+    padding: 45px;
+    padding-bottom: 40%;
+    position: relative;
+}
+article > .video > video{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+main aside{
+    background-color: var(--edcor0);
+    padding: 10px;
+    border-radius: 10px;
+}
+aside > h3{
+    background-color: var(--edcor3);
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+aside > p > strong{
+    color: var(--edcor3);
+    font-weight: bold;
+}
+aside > p > a{
+    color: var(--edcor3);
+    text-decoration: none;
+    font-weight: bolder;
+}
+aside > p > a:hover{
+    text-decoration: underline;
+}
+aside > ul{
+    list-style-position: inside;
+    list-style-type: '\1F967' ;
+    columns: 2;
+}
+
+/*----------------------Fim-----------------------------*/
+
+/*Configuracoes do Meu Rodape*/
+footer{
+    background-color: var(--edcor4);
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}
+footer  a{
+    color: var(--edcor1);
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: white;
+}
+/*----------------------Fim-----------------------------*/
